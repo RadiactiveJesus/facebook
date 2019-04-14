@@ -6,7 +6,7 @@
 .background {
     background-image: linear-gradient(#4e69a2, #3b5998 50%);
     border-bottom: 1px solid #133783;
-    height: 100px;
+    height: 85px;
 }
 .nav-bar {
     height: 85px;
@@ -16,6 +16,8 @@
 .nav-bar img {
     height: 65px;
     float: left;
+    margin-left: 100px;
+    margin-top: 15px;
 }
 .right {
     float: right;
@@ -26,15 +28,46 @@
 }
 .right p {
     color: white;
+    font-size: 13px;
 }
 .mail input {
-    width: 150px;
+    width: 170px;
     height: 20px;
     border-radius: 0px;
+    margin-top: 3px;
 }
 .password input {
     width: 150px;
     height: 20px;
     border-radius: 0px;
+    margin-bottom: 3px;
+    margin-top: 3px;
 }
-
+.mail {
+    margin-right: 15px;
+}
+.password a {
+    color: #9cb4d8;
+    font-size: 11px;
+    text-decoration: none;
+}
+.log-in button {
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 12px;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.content {
+    display: flex;
+    width: 80%;
+}
+.content div {
+    width: 50%;
+}
