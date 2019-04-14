@@ -64,9 +64,15 @@
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
+.container {
+    display: flex;
+    justify-content: center;
+}
 .content {
     display: flex;
-    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    width: 82%;
 }
 .content div {
     width: 50%;
