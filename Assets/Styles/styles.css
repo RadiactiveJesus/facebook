@@ -67,13 +67,40 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    background-image: linear-gradient(white, #D3D8E8);
+    height: 800px;
 }
 .content {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 82%;
+    margin-top: 50px;
 }
 .content div {
     width: 50%;
+}
+.daizquier {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29px;
+    color: rgb(14, 56, 95);
+}
+.input-nombre-apellido {
+    display: flex;
+    flex-direction: row;
+}
+.input-nombre-apellido input {
+    border-color:  rgb(189, 199, 216);
+    padding: 8px 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.chadere h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.chadere h2 {
+    font-size: 18px;
+    padding-bottom: 25px;
 }
