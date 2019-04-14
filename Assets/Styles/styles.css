@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.background {
+    background-image: linear-gradient(#4e69a2, #3b5998 50%);
+    border-bottom: 1px solid #133783;
+    height: 100px;
+}
+.nav-bar {
+    height: 85px;
+    display: inline;
+    margin-top: 40px;
+}
+.nav-bar img {
+    height: 65px;
+    float: left;
+}
+.right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: 20px;
+}
+.right p {
+    color: white;
+}
+.mail input {
+    width: 150px;
+    height: 20px;
+    border-radius: 0px;
+}
+.password input {
+    width: 150px;
+    height: 20px;
+    border-radius: 0px;
+}
+
