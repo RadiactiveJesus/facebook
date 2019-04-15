@@ -95,6 +95,7 @@ body {
     padding: 8px 10px;
     margin-right: 20px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
 .chadere h1 {
     font-size: 40px;
@@ -104,3 +105,12 @@ body {
     font-size: 18px;
     padding-bottom: 25px;
 }
+.chadere input {
+    border-color:  rgb(189, 199, 216);
+    padding: 8px 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 524px;
+}
+
